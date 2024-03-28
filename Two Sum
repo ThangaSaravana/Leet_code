@@ -1,0 +1,10 @@
+var twoSum = function(nums, target) {
+    let Map1 = new Map()
+    for(let i = 0;i<nums.length;i++){
+        let compliment = target - nums[i]
+        if(Map1.has(compliment)){
+            return[Map1.get(compliment),i]
+        }
+        Map1.set(nums[i],i)
+    }
+};
