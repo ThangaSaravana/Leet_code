@@ -15,3 +15,5 @@ public:
        return num;
     }
 };
+
+// the maximum 32 bit interger INT_MAX  =  2,147,483,647
